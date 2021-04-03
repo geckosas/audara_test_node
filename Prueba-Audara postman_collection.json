@@ -1,0 +1,350 @@
+{
+	"info": {
+		"_postman_id": "6ae7aa9a-ee14-4254-853a-0e08a6818991",
+		"name": "Prueba-Audara",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8443/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    apiCode: 2911\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8443/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2500",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2500&id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2500"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2510",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "prueba_a",
+							"type": "text"
+						},
+						{
+							"key": "prefix",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "number_of_digits",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "min_rate",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "sec_rate",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "currency_id",
+							"value": "15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2510",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2510"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2511",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2511",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2511"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2512",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "prueba_edit",
+							"type": "text"
+						},
+						{
+							"key": "prefix",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "number_of_digits",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "min_rate",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "sec_rate",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "currency_id",
+							"value": "15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2512&id=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2512"
+						},
+						{
+							"key": "id",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2513",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2513&id=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2513"
+						},
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2514",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2514&id=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2514"
+						},
+						{
+							"key": "id",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2515",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2515&id=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2515"
+						},
+						{
+							"key": "id",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2518",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2518",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2518"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8443/?apiCode=2519",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8443/?apiCode=2519",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8443",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apiCode",
+							"value": "2519"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
